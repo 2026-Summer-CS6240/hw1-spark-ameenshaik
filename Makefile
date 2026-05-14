@@ -2,8 +2,8 @@
 
 # Customize these paths for your environment.
 # -----------------------------------------------------------
-spark.root=/usr/local/spark-3.3.2-bin-without-hadoop
-hadoop.root=/usr/local/hadoop-3.3.5
+spark.root=/usr/local/spark
+hadoop.root=/usr/local/hadoop
 app.name=Word Count
 jar.name=spark-demo.jar
 maven.jar.name=spark-demo-1.0.jar
@@ -17,7 +17,7 @@ hdfs.input=input
 hdfs.output=output
 # AWS EMR Execution
 aws.emr.release=emr-6.10.0
-aws.bucket.name=cs6240-demo-bucket
+aws.bucket.name=cs6240-ameenshaik-bucket
 aws.input=input
 aws.output=output
 aws.log.dir=log
